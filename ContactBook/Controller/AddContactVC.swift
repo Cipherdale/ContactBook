@@ -46,7 +46,7 @@ class AddContactVC: UIViewController {
         view.backgroundColor = .white
         
         /// Setup title for UINavigationController
-        title = "Add New Contact"
+        title = "Add Contact"
         
         /// Setup views for AddContactVC
         setupView()

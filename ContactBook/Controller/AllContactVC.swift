@@ -39,6 +39,7 @@ class AllContactVC: UIViewController {
         let label = UILabel()
         label.numberOfLines = 0
         label.textAlignment = .center
+        label.lineBreakMode = .byWordWrapping
         return label
     }()
     
@@ -60,8 +61,10 @@ class AllContactVC: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-        /// iOS 11 new feature
-        navigationController?.navigationBar.prefersLargeTitles = true
+        /// if iOS 11 apply new large title navigation bar
+        if #available(iOS 11, *) {
+            navigationController?.navigationBar.prefersLargeTitles = true
+        }
         
         /// Set title for UINavigaton Controller
         title = "Contact Book"
