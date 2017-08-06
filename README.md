@@ -3,6 +3,15 @@
 ## Description
 Example project for offline contact app with Realm as database programmatically.
 
+### Preview
+- Add new contact
+
+![ContactBook demo](http://i.imgur.com/oLCX0Vr.gif)
+
+- Delete contact
+
+![ContactBook demo](http://i.imgur.com/BwOQjWx.gif)
+
 ### Features
 
 - Use Realm as database
