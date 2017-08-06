@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let vc = AllContactVC()
+        let nav = UINavigationController(rootViewController: vc)
+        
+        window?.rootViewController = nav
+        
+        /// Get the path so u can open with realm browser
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
+        
         return true
     }
 
