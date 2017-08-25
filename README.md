@@ -34,7 +34,7 @@ Example project for offline contact app with Realm as database programmatically.
 
 ### Development program version
 
-- Xcode 9.0 beta 4 (9M189t)
+- Xcode 9.0 beta 6 (9M214v)
 
 ### Development language
 
