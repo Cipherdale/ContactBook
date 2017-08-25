@@ -26,6 +26,8 @@ Example project for offline contact app with Realm as database programmatically.
 - Open Terminal.
 - Go to the path of your project folder.
 - Type 'pod install'
+- If you run Xcode beta version, don't forget navigate to Xcode -> Preference -> Locations than Change Command Line Tools into Xcode 8.3.3 (8E3004B).
+- Tap "No Scheme" in Xcode IDE than choose "manage scheme" tap + and add Target to ContactBook, restart Xcode, and you'll be fine
 
 ### Requirements
 - Xcode 9.+ running a target of iOS 10.3 and later
