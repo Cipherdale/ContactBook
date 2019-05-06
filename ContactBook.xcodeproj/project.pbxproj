@@ -144,7 +144,6 @@
 				E67948021F36FCCE00A599A5 /* Frameworks */,
 				E67948031F36FCCE00A599A5 /* Resources */,
 				F30F71953C6023D154A6B28D /* [CP] Embed Pods Frameworks */,
-				3F8BA3F02293C8850A3F850F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,21 +200,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F8BA3F02293C8850A3F850F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactBook/Pods-ContactBook-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B17B00DF71D2CE7166FF0388 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,7 +224,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ContactBook/Pods-ContactBook-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ContactBook/Pods-ContactBook-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -251,7 +235,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactBook/Pods-ContactBook-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactBook/Pods-ContactBook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
