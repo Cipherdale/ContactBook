@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode10.2
+xcode_workspace: ContactBook.xcworkspace
+xcode_scheme: ContactBook
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
